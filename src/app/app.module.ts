@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HealthWellComponent } from './health-well/health-well.component';
 import { MaterialModule } from './material/material.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { RecipesComponent } from './recipes/recipes.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppComponent,
     LandingComponent,
     HealthWellComponent,
-    NavbarComponent
+    NavbarComponent,
+    RecipesComponent
   ],
   imports: [
     BrowserModule,
